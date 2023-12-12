@@ -50,6 +50,19 @@ img {
 .sidebar {
     width: 80px;
     flex-shrink: 0;
+    background-image: url(../img/sidebar-bg.png);
+    background-color: hsl(214.05deg 56.92% 12.75%);
+}
+
+.sidebar .nav-link {
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.sidebar .nav-link span {
+    font-size: 1rem;
+    margin-left: 10px;
 }
 
 /* Main */
