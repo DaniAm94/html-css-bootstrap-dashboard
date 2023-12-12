@@ -3,9 +3,42 @@ section {
     border: 2px solid red;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
 /* Header */
 #main-header {
     height: 80px;
+}
+
+#main-header .logo-mobile {
+    width: 60px;
+    padding: 0;
+}
+
+#main-header .logo {
+    height: 40px;
+    width: auto;
+}
+
+#main-header .btn.btn-outline-secondary {
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-right: 0;
+    background-color: hsl(0deg 0% 89.8%);
+}
+
+#main-header .form-control {
+    border-left: 0;
+    padding-left: 0;
+    background-color: hsl(0deg 0% 89.8%);
+}
+
+.nav-link.bell {
+    color: hsl(34.66deg 84.43% 52.16%);
 }
 
 /* Bottom content */
