@@ -78,4 +78,21 @@ main {
 /* Secondary header */
 .secondary-header {
     min-height: 50px;
+    background-color: hsl(221.71deg 75.93% 57.65%);
+    font-weight: 600;
+}
+
+.badge.rounded-pill {
+    background-color: hsl(221.82deg 55.93% 46.27%);
+}
+
+.badge a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.header-item .btn {
+    color: white;
+    margin-left: 10px;
 }
