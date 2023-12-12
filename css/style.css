@@ -1,3 +1,8 @@
+/* Generics */
+section {
+    border: 2px solid red;
+}
+
 /* Header */
 #main-header {
     height: 80px;
@@ -20,7 +25,9 @@ main {
 }
 
 /* Main content */
-.main-content {}
+.main-content>* {
+    height: 100%;
+}
 
 /* Secondary header */
 .secondary-header {
