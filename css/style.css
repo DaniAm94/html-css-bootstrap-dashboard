@@ -1,0 +1,28 @@
+/* Header */
+#main-header {
+    height: 80px;
+}
+
+/* Bottom content */
+.content-bottom {
+    height: calc(100vh - 80px);
+}
+
+/* Sidebar */
+.sidebar {
+    width: 80px;
+    flex-shrink: 0;
+}
+
+/* Main */
+main {
+    overflow-y: auto;
+}
+
+/* Main content */
+.main-content {}
+
+/* Secondary header */
+.secondary-header {
+    min-height: 50px;
+}
