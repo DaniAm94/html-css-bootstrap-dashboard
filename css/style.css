@@ -19,6 +19,21 @@ img {
     background-color: hsl(0.47deg 52.89% 52.55%);
 }
 
+/* ! animazione icone */
+.fa-shake,
+.fa-beat,
+.fa-spin {
+    --fa-animation-iteration-count: 0;
+}
+
+.nav-link.bell:hover .fa-shake,
+.sidebar .nav-item:hover .fa-beat,
+.sidebar .nav-item:hover .fa-spin {
+    --fa-animation-iteration-count: infinite;
+}
+
+/* !--------- */
+
 
 
 /* Header */
@@ -56,16 +71,6 @@ img {
     background-color: white;
 }
 
-
-/* ! animazione campanella */
-.fa-solid.fa-bell.fa-shake {
-    --fa-animation-iteration-count: 0;
-}
-
-.nav-link.bell:hover .fa-solid.fa-bell.fa-shake {
-    --fa-animation-iteration-count: infinite;
-}
-
 /* ! fa comparire il dropdown menu verso sinistra */
 .dropdown-menu[data-bs-popper] {
     right: 0;
@@ -99,27 +104,6 @@ img {
 .sidebar .nav-link:hover {
     background-color: rgba(255, 255, 255, 0.4);
 }
-
-/* ! animazione icone sidebar */
-
-.sidebar .nav-item .fa-beat {
-    --fa-animation-iteration-count: 0;
-}
-
-.sidebar .nav-item:hover .fa-beat {
-    --fa-animation-iteration-count: infinite;
-}
-
-
-.sidebar-bottom .fa-spin {
-    --fa-animation-iteration-count: 0;
-}
-
-.sidebar-bottom li:hover .fa-spin {
-    --fa-animation-iteration-count: infinite;
-}
-
-/* !--------- */
 
 .sidebar .nav-link span {
     font-size: 1rem;
