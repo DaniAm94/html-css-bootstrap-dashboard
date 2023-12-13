@@ -52,6 +52,21 @@ img {
     color: hsl(34.66deg 84.43% 52.16%);
 }
 
+.nav-link.btn-secondary:hover {
+    background-color: white;
+}
+
+/* ! fa comparire il dropdown menu verso sinistra */
+.dropdown-menu[data-bs-popper] {
+    right: 0;
+    left: auto;
+}
+
+/* ! rimuove la freccetta in basso */
+.dropdown-toggle::after {
+    display: none;
+}
+
 /* Bottom content */
 .content-bottom {
     height: calc(100vh - 80px);
@@ -69,6 +84,10 @@ img {
     color: white;
     text-align: center;
     font-size: 1.3rem;
+}
+
+.sidebar .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.4);
 }
 
 .sidebar .nav-link span {
@@ -124,6 +143,10 @@ table {
 tr {
     border-bottom: 1px solid lightgray;
     margin-bottom: 10px;
+}
+
+#classes-table tr:not(:only-child):hover {
+    background-color: #ddd;
 }
 
 th:not(:first-of-type) {
