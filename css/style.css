@@ -9,6 +9,18 @@ img {
     display: block;
 }
 
+/* Utils */
+.my-bg-green {
+    background-color: hsl(136.19deg 31.34% 39.41%);
+}
+
+.my-bg-yellow {
+    background-color: hsl(45.9deg 88.5% 55.69%);
+}
+
+.my-bg-red {
+    background-color: hsl(0.47deg 52.89% 52.55%);
+}
 
 /* Header */
 #main-header {
@@ -95,4 +107,61 @@ main {
 .header-item .btn {
     color: white;
     margin-left: 10px;
+}
+
+/* Main content */
+
+
+/* Classes section */
+
+table {
+    width: 100%;
+}
+
+tr {
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 10px;
+}
+
+th:not(:first-of-type) {
+    text-align: center;
+}
+
+th,
+td {
+    height: 50px;
+}
+
+.first-col {
+    width: 40%;
+}
+
+.first-col .cell {
+    justify-content: flex-start;
+}
+
+.class-logo {
+    border-radius: 50%;
+    width: 30px;
+}
+
+.cell {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.cell button {
+    border: 1px solid gray;
+    color: grey;
+    background-color: white;
+}
+
+/* FAQ section */
+#faq .accordion-item {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
 }
