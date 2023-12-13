@@ -1,7 +1,4 @@
 /* Generics */
-section {
-    border: 2px solid red;
-}
 
 img {
     max-width: 100%;
@@ -165,3 +162,5 @@ td {
     border-left: 0;
     border-right: 0;
 }
+
+/* Graph section */
