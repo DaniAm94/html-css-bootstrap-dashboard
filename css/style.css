@@ -19,6 +19,8 @@ img {
     background-color: hsl(0.47deg 52.89% 52.55%);
 }
 
+
+
 /* Header */
 #main-header {
     height: 80px;
@@ -101,9 +103,13 @@ main {
     font-weight: 600;
 }
 
-.header-item .btn {
+.header-item>.btn {
     color: white;
     margin-left: 10px;
+}
+
+.offcanvas.offcanvas-end {
+    width: 100vw;
 }
 
 /* Main content */
